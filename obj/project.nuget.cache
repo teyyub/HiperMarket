@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "HzBUGr5HHop91S0xLfisGbws89jUVzI+v4/N6PJerGOF1nb9kPLQ99dzlEuBewJn7gAJuIDjntb3H2JqJI7rrg==",
+  "dgSpecHash": "pEXNUD7neo3i4YBkFivBIKM6jSubCnVM7u168OD+ADaezO//GlKzmbQnVH52vC6Z1Cpb9Cv8Y+iuggISeLQ2kQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Teyyub\\workspace_c#\\WinFormsApp\\WinFormsApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Teyyub\\workspace_c#\\HiperMarket\\WinFormsApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Teyyub\\.nuget\\packages\\npgsql\\5.0.4\\npgsql.5.0.4.nupkg.sha512",
+    "C:\\Users\\Teyyub\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+  ],
   "logs": []
 }
