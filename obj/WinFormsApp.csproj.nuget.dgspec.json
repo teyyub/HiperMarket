@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Teyyub\\workspace_c#\\WinFormsApp\\WinFormsApp.csproj": {}
+    "C:\\Users\\Teyyub\\workspace_c#\\HiperMarket\\WinFormsApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Teyyub\\workspace_c#\\WinFormsApp\\WinFormsApp.csproj": {
+    "C:\\Users\\Teyyub\\workspace_c#\\HiperMarket\\WinFormsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Teyyub\\workspace_c#\\WinFormsApp\\WinFormsApp.csproj",
+        "projectUniqueName": "C:\\Users\\Teyyub\\workspace_c#\\HiperMarket\\WinFormsApp.csproj",
         "projectName": "WinFormsApp",
-        "projectPath": "C:\\Users\\Teyyub\\workspace_c#\\WinFormsApp\\WinFormsApp.csproj",
+        "projectPath": "C:\\Users\\Teyyub\\workspace_c#\\HiperMarket\\WinFormsApp.csproj",
         "packagesPath": "C:\\Users\\Teyyub\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Teyyub\\workspace_c#\\WinFormsApp\\obj\\",
+        "outputPath": "C:\\Users\\Teyyub\\workspace_c#\\HiperMarket\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
