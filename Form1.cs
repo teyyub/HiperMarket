@@ -21,6 +21,7 @@ namespace WinFormsApp
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Console.WriteLine("test console: ");
+            Console.WriteLine("test console: ");
         }
 
         private void button1_Click(object sender, EventArgs e)
