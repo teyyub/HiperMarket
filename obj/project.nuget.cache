@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pEXNUD7neo3i4YBkFivBIKM6jSubCnVM7u168OD+ADaezO//GlKzmbQnVH52vC6Z1Cpb9Cv8Y+iuggISeLQ2kQ==",
+  "dgSpecHash": "ntDxgaldUHgauTbMyl6rECJZYSBN4qrwfEvr/D8diXncECHlhEfCIIkXYHA9E6EzaaGOOimusnouIksr/pSPPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Teyyub\\workspace_c#\\HiperMarket\\WinFormsApp.csproj",
+  "projectFilePath": "C:\\repos\\HiperMarket\\WinFormsApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Teyyub\\.nuget\\packages\\npgsql\\5.0.4\\npgsql.5.0.4.nupkg.sha512",
-    "C:\\Users\\Teyyub\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+    "C:\\Users\\Aliheydar\\.nuget\\packages\\microsoft.build.tasks.git\\1.0.0\\microsoft.build.tasks.git.1.0.0.nupkg.sha512",
+    "C:\\Users\\Aliheydar\\.nuget\\packages\\npgsql\\5.0.4\\npgsql.5.0.4.nupkg.sha512",
+    "C:\\Users\\Aliheydar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }

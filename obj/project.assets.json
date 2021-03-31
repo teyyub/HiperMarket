@@ -2,6 +2,17 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Build.Tasks.Git/1.0.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.Build.Tasks.Git.props": {},
+          "build/Microsoft.Build.Tasks.Git.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.Build.Tasks.Git.props": {},
+          "buildMultiTargeting/Microsoft.Build.Tasks.Git.targets": {}
+        }
+      },
       "Npgsql/5.0.4": {
         "type": "package",
         "dependencies": {
@@ -26,6 +37,52 @@
     }
   },
   "libraries": {
+    "Microsoft.Build.Tasks.Git/1.0.0": {
+      "sha512": "z2fpmmt+1Jfl+ZnBki9nSP08S1/tbEOxFdsK1rSR+LBehIJz1Xv9/6qOOoGNqlwnAGGVGis1Oj6S8Kt9COEYlQ==",
+      "type": "package",
+      "path": "microsoft.build.tasks.git/1.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/Microsoft.Build.Tasks.Git.props",
+        "build/Microsoft.Build.Tasks.Git.targets",
+        "buildMultiTargeting/Microsoft.Build.Tasks.Git.props",
+        "buildMultiTargeting/Microsoft.Build.Tasks.Git.targets",
+        "microsoft.build.tasks.git.1.0.0.nupkg.sha512",
+        "microsoft.build.tasks.git.nuspec",
+        "tools/net461/Microsoft.Build.Tasks.Git.dll",
+        "tools/net461/System.Collections.Immutable.dll",
+        "tools/net461/cs/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/de/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/es/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/fr/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/it/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/ja/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/ko/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/pl/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/pt-BR/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/ru/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/tr/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/zh-Hans/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/net461/zh-Hant/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/Microsoft.Build.Tasks.Git.dll",
+        "tools/netcoreapp2.0/cs/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/de/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/es/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/fr/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/it/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/ja/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/ko/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/pl/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/pt-BR/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/ru/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/tr/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/zh-Hans/Microsoft.Build.Tasks.Git.resources.dll",
+        "tools/netcoreapp2.0/zh-Hant/Microsoft.Build.Tasks.Git.resources.dll"
+      ]
+    },
     "Npgsql/5.0.4": {
       "sha512": "wuJUsrhOKaR41ZB9Ecw9ZEpQzMQ5bRahl7w+pt4noVMDkDPbw4cMHV8UfNKeZSPLXaN4yWXPR2QgJ+2vG/85VQ==",
       "type": "package",
@@ -74,28 +131,24 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Microsoft.Build.Tasks.Git >= 1.0.0",
       "Npgsql >= 5.0.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Teyyub\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Aliheydar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Teyyub\\workspace_c#\\HiperMarket\\WinFormsApp.csproj",
+      "projectUniqueName": "C:\\repos\\HiperMarket\\WinFormsApp.csproj",
       "projectName": "WinFormsApp",
-      "projectPath": "C:\\Users\\Teyyub\\workspace_c#\\HiperMarket\\WinFormsApp.csproj",
-      "packagesPath": "C:\\Users\\Teyyub\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Teyyub\\workspace_c#\\HiperMarket\\obj\\",
+      "projectPath": "C:\\repos\\HiperMarket\\WinFormsApp.csproj",
+      "packagesPath": "C:\\Users\\Aliheydar\\.nuget\\packages\\",
+      "outputPath": "C:\\repos\\HiperMarket\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Teyyub\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Aliheydar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -107,7 +160,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -119,8 +171,13 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Microsoft.Build.Tasks.Git": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Npgsql": {
             "target": "Package",
             "version": "[5.0.4, )"
@@ -144,7 +201,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
