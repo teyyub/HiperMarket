@@ -35,7 +35,9 @@ namespace WinFormsApp
             using var cmd = new NpgsqlCommand(sql, con);
 
             var version = cmd.ExecuteScalar().ToString();
+            var version1 = cmd.ExecuteScalar().ToString();
             Console.WriteLine($"PostgreSQL version: {version}");
+            //asdsadsadasdasd
 
         }
     }
