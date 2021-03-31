@@ -23,6 +23,7 @@ namespace WinFormsApp
             Console.WriteLine("test console: ");
             Console.WriteLine("test console: ");
             Console.WriteLine("test console: ");
+            Console.WriteLine("test console: ");
         }
 
         private void button1_Click(object sender, EventArgs e)
